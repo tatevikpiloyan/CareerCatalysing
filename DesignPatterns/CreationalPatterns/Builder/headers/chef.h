@@ -27,11 +27,14 @@ private:
 
 public:
 	PepperoniChef();
+	~PepperoniChef();
+
+public:
 	void reset() override;
 	void make_dough() override;
 	void add_sauce() override;
 	void add_topping() override;
-	~PepperoniChef();
+	Pepperoni* get_pizza();
 
 private:
 	void delete_helper() override;
@@ -45,11 +48,14 @@ private:
 
 public:
 	CrepeChef();
+	~CrepeChef();
+
+public:
 	void reset() override;
 	void make_dough() override;
 	void add_sauce() override;
 	void add_topping() override;
-	~CrepeChef();
+	Crepe* get_crepe();
 
 private:
 	void delete_helper() override;

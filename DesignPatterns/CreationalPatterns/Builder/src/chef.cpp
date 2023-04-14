@@ -34,6 +34,13 @@ void PepperoniChef::add_topping()
 	this->m_pizza->m_topping.push_back("pepperoni");
 }
 
+Pepperoni* PepperoniChef::get_pizza()
+{
+	Pepperoni* result = this->m_pizza;
+	this->delete_helper();
+	return result;
+}
+
 void PepperoniChef::delete_helper()
 {
 	if (this->m_pizza)
@@ -78,6 +85,13 @@ void CrepeChef::add_topping()
 {
 	this->m_crepe->m_topping.push_back("banana");
 	this->m_crepe->m_topping.push_back("strawberry");
+}
+
+Crepe* CrepeChef::get_crepe()
+{
+	Crepe* result = this->m_crepe;
+	this->delete_helper();
+	return result;
 }
 
 void CrepeChef::delete_helper()

@@ -6,5 +6,7 @@
 
 int main()
 {
-
+	Manager person;
+	CrepeChef chef;
+	person.set_chef(&chef);
 }

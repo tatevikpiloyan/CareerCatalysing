@@ -2,7 +2,7 @@
 
 #include "../headers/product.h"
 
-Pepperoni::Pepperoni() : m_crust{}, m_source{}, m_topping{}
+Pepperoni::Pepperoni() : m_crust{}, m_sauce{}, m_topping{}
 {
 }
 

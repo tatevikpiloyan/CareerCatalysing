@@ -24,9 +24,9 @@ void PepperoniChef::make_dough()
 	this->m_pizza->m_crust = 10;
 }
 
-void PepperoniChef::add_source()
+void PepperoniChef::add_sauce()
 {
-	this->m_pizza->m_source.push_back("tomato");
+	this->m_pizza->m_sauce.push_back("tomato");
 }
 
 void PepperoniChef::add_topping()
@@ -69,7 +69,7 @@ void CrepeChef::make_dough()
 	this->m_crepe->m_crust = 0.1;
 }
 
-void CrepeChef::add_source()
+void CrepeChef::add_sauce()
 {
 	this->m_crepe->m_filling.push_back("chocolate");
 }

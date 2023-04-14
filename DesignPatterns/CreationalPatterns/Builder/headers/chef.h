@@ -12,7 +12,7 @@ public:
 public:
 	virtual void reset() = 0;
 	virtual void make_dough() = 0;
-	virtual void add_source() = 0;
+	virtual void add_sauce() = 0;
 	virtual void add_topping() = 0;
 
 protected:
@@ -29,7 +29,7 @@ public:
 	PepperoniChef();
 	void reset() override;
 	void make_dough() override;
-	void add_source() override;
+	void add_sauce() override;
 	void add_topping() override;
 	~PepperoniChef();
 
@@ -47,7 +47,7 @@ public:
 	CrepeChef();
 	void reset() override;
 	void make_dough() override;
-	void add_source() override;
+	void add_sauce() override;
 	void add_topping() override;
 	~CrepeChef();
 

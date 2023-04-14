@@ -6,7 +6,7 @@
 struct Pepperoni
 {
 	double m_crust;
-	std::vector<std::string> m_source;
+	std::vector<std::string> m_sauce;
 	std::vector<std::string> m_topping;
 
 public:

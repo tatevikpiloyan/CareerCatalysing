@@ -11,7 +11,7 @@ void Manager::create_pizza()
 {
 	this->m_chef->reset();
 	this->m_chef->make_dough();
-	this->m_chef->add_source();
+	this->m_chef->add_sauce();
 	this->m_chef->add_topping();
 }
 
@@ -19,6 +19,6 @@ void Manager::create_crepe()
 {
 	this->m_chef->reset();
 	this->m_chef->make_dough();
-	this->m_chef->add_source();
+	this->m_chef->add_sauce();
 	this->m_chef->add_topping();
 }

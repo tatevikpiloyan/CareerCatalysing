@@ -12,8 +12,7 @@ private:
 public:
 	Manager() = default;
 	void set_chef(Chef*);
-	void create_pizza();
-	void create_crepe();	
+	void create();	
 };
 
 #endif // MANAGER_H

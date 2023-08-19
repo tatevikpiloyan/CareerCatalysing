@@ -6,7 +6,8 @@
 
 int main()
 {
-	Manager person;
+	Manager product_manager;
 	CrepeChef chef;
-	person.set_chef(&chef);
+	product_manager.set_chef(&chef);
+	product_manager.create();
 }

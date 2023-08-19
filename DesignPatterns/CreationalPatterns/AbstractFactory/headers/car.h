@@ -30,7 +30,7 @@ public:
 	void change_price(double) override;
 };
 
-// Jeep class inherits from the Car class to show a specific car type
+// Sport class inherits from the Car class to show a specific car type
 class Sport : public Car
 {
 public:
